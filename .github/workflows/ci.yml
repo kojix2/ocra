@@ -15,4 +15,4 @@ jobs:
           ruby-version: ${{ matrix.ruby }}
           bundler-cache: true
       - run: gem install hoe
-      - run: bundle exec rake test
+      - run: rake test
